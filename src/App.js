@@ -154,7 +154,7 @@ function App() {
                 <div className="header-image d-none d-lg-block">
                   <img
                     src="assets/images/banner/personal_image.png"
-                    alt="personal image not found"
+                    alt="Adham Tonsy"
                   />
                 </div>
                 {/* header image */}
@@ -384,7 +384,7 @@ function App() {
               <div className="about-skills pt-25">
                 <h2 className="text-center">Frameworks</h2>
                 <swiper-container
-                  init="false"
+                  init="true"
                   className="to-left-swiper1"
                   autoPlay
                   loop
@@ -438,8 +438,9 @@ function App() {
             <div className="col-12 col-md-6">
               <div className="about-skills pt-25">
                 <h2 className="text-center">Editors and IDES</h2>
+
                 <swiper-container
-                  init="false"
+                  init="true"
                   className="to-left-swiper2"
                   autoPlay
                   loop
@@ -476,7 +477,7 @@ function App() {
               <div className="about-skills pt-25">
                 <h2 className="text-center">Databases</h2>
                 <swiper-container
-                  init="false"
+                  init="true"
                   className="to-left-swiper3"
                   autoPlay
                   loop
@@ -519,7 +520,7 @@ function App() {
               <div className="about-skills pt-25">
                 <h2 className="text-center">Tools</h2>
                 <swiper-container
-                  init="false"
+                  init="true"
                   className="to-left-swiper4"
                   autoPlay
                   loop
@@ -568,7 +569,13 @@ function App() {
                 </div>
                 <div className="service-content">
                   <h4 className="service-title">
-                    <a href="#">Web Development</a>
+                    <a
+                      href="https://www.w3schools.com/whatis/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Web Development
+                    </a>
                   </h4>
                   <p>
                     When it comes to web development, it's all about combining
@@ -921,6 +928,7 @@ function App() {
             </div>
             <div className="modal-body">
               {/* Swiper */}
+
               <section className="slider">
                 <swiper-container
                   className="mySwiper vh-50"
@@ -931,77 +939,77 @@ function App() {
                     <img
                       className="img-fluid rounded-4 obj-contain"
                       src="assets/images/projects/credit-agircole-modal/loading.png"
-                      alt="image not found"
+                      alt="Credit Agricole loading screen"
                     />
                   </swiper-slide>
                   <swiper-slide>
                     <img
                       className="img-fluid rounded-4 obj-contain"
                       src="assets/images/projects/credit-agircole-modal/login.png"
-                      alt="image not found"
+                      alt="Credit Agricole login screen"
                     />
                   </swiper-slide>
                   <swiper-slide>
                     <img
                       className="img-fluid rounded-4 obj-contain"
                       src="assets/images/projects/credit-agircole-modal/home.png"
-                      alt="image not found"
+                      alt="Credit Agricole home screen"
                     />
                   </swiper-slide>
                   <swiper-slide>
                     <img
                       className="img-fluid rounded-4 obj-contain"
                       src="assets/images/projects/credit-agircole-modal/transfer_money_service.png"
-                      alt="image not found"
+                      alt="Credit Agricole transfer money service"
                     />
                   </swiper-slide>
                   <swiper-slide>
                     <img
                       className="img-fluid rounded-4 obj-contain"
                       src="assets/images/projects/credit-agircole-modal/internet_service.png"
-                      alt="image not found"
+                      alt="Credit Agricole internet service"
                     />
                   </swiper-slide>
                   <swiper-slide>
                     <img
                       className="img-fluid rounded-4 obj-contain"
                       src="assets/images/projects/credit-agircole-modal/electric_service.png"
-                      alt="image not found"
+                      alt="Credit Agricole electric service"
                     />
                   </swiper-slide>
                   <swiper-slide>
                     <img
                       className="img-fluid rounded-4 obj-contain"
                       src="assets/images/projects/credit-agircole-modal/gas_service.png"
-                      alt="image not found"
+                      alt="Credit Agricole gas service"
                     />
                   </swiper-slide>
                   <swiper-slide>
                     <img
                       className="img-fluid rounded-4 obj-contain"
                       src="assets/images/projects/credit-agircole-modal/water_service.png"
-                      alt="image not found"
+                      alt="Credit Agricole water service"
                     />
                   </swiper-slide>
                   <swiper-slide>
                     <img
                       className="img-fluid rounded-4 obj-contain"
                       src="assets/images/projects/credit-agircole-modal/transactions.png"
-                      alt="image not found"
+                      alt="Credit Agricole transactions screen"
                     />
                   </swiper-slide>
                   <swiper-slide>
                     <img
                       className="img-fluid rounded-4 obj-contain"
                       src="assets/images/projects/credit-agircole-modal/account.png"
-                      alt="image not found"
+                      alt="Credit Agricole account screen"
                     />
                   </swiper-slide>
                   <swiper-slide>
                     <img
                       className="img-fluid rounded-4 obj-contain"
                       src="assets/images/projects/credit-agircole-modal/help.png"
-                      alt="image not found"
+                      alt="Credit Agricole help screen"
                     />
                   </swiper-slide>
                 </swiper-container>
@@ -1100,6 +1108,7 @@ function App() {
                         <a
                           href="https://adhamherbsh.github.io/englizya/"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i className="lni-link" />
                         </a>
@@ -1133,7 +1142,11 @@ function App() {
                         </a>
                       </li>
                       <li>
-                        <a href="https://willandway.org/" target="_blank">
+                        <a
+                          href="https://willandway.org/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           <i className="lni-link" />
                         </a>
                       </li>
@@ -1169,6 +1182,7 @@ function App() {
                         <a
                           href="https://adhamherbsh.github.io/re-fashion/"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i className="lni-link" />
                         </a>
@@ -1208,6 +1222,7 @@ function App() {
                         <a
                           href="https://adhamherbsh.github.io/math/"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i className="lni-link" />
                         </a>
@@ -1247,6 +1262,7 @@ function App() {
                         <a
                           href="https://adhamherbsh.github.io/sta/"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i className="lni-link" />
                         </a>
@@ -1327,6 +1343,7 @@ function App() {
                         <a
                           href="https://apex.oracle.com/pls/apex/r/as12/aid/"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i className="lni-link" />
                         </a>
@@ -1366,6 +1383,7 @@ function App() {
                         <a
                           href="https://apex.oracle.com/pls/apex/r/peater/deal-with-me/"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i className="lni-link" />
                         </a>
@@ -1407,6 +1425,7 @@ function App() {
                         <a
                           href="https://apex.oracle.com/pls/apex/r/as13/human-resource-management-system/"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i className="lni-link" />
                         </a>
@@ -1446,6 +1465,7 @@ function App() {
                         <a
                           href="https://apex.oracle.com/pls/apex/r/as12/dss-project/"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i className="lni-link" />
                         </a>
@@ -1485,6 +1505,7 @@ function App() {
                         <a
                           href="https://apex.oracle.com/pls/apex/r/as12/dummies-application/"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i className="lni-link" />
                         </a>
@@ -1590,7 +1611,7 @@ function App() {
                 <img
                   className="img-fluid rounded-4"
                   src="assets/images/certificates/c-1.png"
-                  alt="image not found"
+                  alt="Certificate 1"
                 />
               </swiper-slide>
               <swiper-slide>
