@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+<<<<<<< HEAD >>>>>>>
 # A-Tonsy
 It new portolio using react
 =======
