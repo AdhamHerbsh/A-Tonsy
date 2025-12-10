@@ -31,11 +31,11 @@ const CreditAgricoleModal = () => {
           <div className="modal-header">
             <h3 className="modal-title" id="label-credit-agricole">
               <WebpImage
-                className="img-thumbnail w-25"
+                className="img-thumbnail mx-2"
                 src="assets/images/projects/credit-agircole-modal/credit-agricole-logo-modal.png"
                 alt="Credit Agricole Logo"
-                width="100"
-                height="100"
+                width="50"
+                height="50"
                 loading="lazy"
               />
               Credit Agiricole Mobile Application
@@ -56,7 +56,7 @@ const CreditAgricoleModal = () => {
               <swiper-container
                 ref={swiperRef}
                 init="false"
-                className="mySwiper vh-50"
+                className="mySwiper"
                 scrollbar-hide="true"
                 loop="true"
               >
