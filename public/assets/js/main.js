@@ -124,24 +124,6 @@
   });
 
   //===== Initialization Swiper ====//
-  for (let index = 1; index <= 4; index++) {
-    var swiperEl = document.querySelector(".to-left-swiper" + index);
-    Object.assign(swiperEl, {
-      grabCursor: true,
-      effect: "creative",
-      autoplay: {
-        delay: index * 10000,
-      },
-      creativeEffect: {
-        prev: {
-          shadow: true,
-          translate: [0, 0, -400],
-        },
-        next: {
-          translate: ["100%", 0, 0],
-        },
-      },
-    });
-    swiperEl.initialize();
-  }
+  //===== Initialization Swiper (Moved to React) ====//
+  // Logic moved to App.js to ensure elements exist before initialization
 })(jQuery);
